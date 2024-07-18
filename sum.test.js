@@ -24,13 +24,3 @@ describe("sum part 2", () => {
     expect(sum(1.5, 2.5)).toBe(4);
   });
 });
-
-describe("my suite", () => {
-  it("adding 1 and 2 should be 3", () => {
-    expect(1 + 2).toBe(3);
-  });
-
-  it("adding 3 and 4 should be 7", () => {
-    expect(3 + 4).toBe(7);
-  });
-});
