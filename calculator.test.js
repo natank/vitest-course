@@ -26,13 +26,22 @@ describe("Calculator Module", () => {
 
   describe("subtract function", () => {
     // Similar structure for subtract function
+    it("subtracts two positive numbers", () => {
+      expect(subtract(2, 1)).toBe(1);
+    });
   });
 
   describe("multiply function", () => {
     // Similar structure for multiply function
+    it("multiplies two positive numbers", () => {
+      expect(multiply(2, 3)).toBe(6);
+    });
   });
 
   describe("divide function", () => {
     // Similar structure for divide function
+    it("divides two positive numbers", () => {
+      expect(divide(6, 3)).toBe(2);
+    });
   });
 });
