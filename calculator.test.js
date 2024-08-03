@@ -4,7 +4,8 @@ import { add, subtract, multiply, divide } from "./calculator";
 describe("Calculator Module", () => {
   describe("add function", () => {
     it("adds two positive numbers", () => {
-      expect(add(1, 2)).toBe(3);
+      const result = add(1, 2);
+      expect(result).toBe(3);
     });
 
     it("adds a positive and a negative number", () => {
