@@ -1,7 +1,7 @@
 export class PricingService {
   getPrice(itemId: string): number {
     // Simulated prices
-    const prices = {
+    const prices: Record<string, number> = {
       "001": 15.99,
       "002": 25.5,
       "003": 9.99,
