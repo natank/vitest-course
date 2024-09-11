@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { sum } from "./sum";
 
-describe("sum part 1", () => {
+describe("sum", () => {
   it("adds two numbers", () => {
     expect(sum(1, 2)).toBe(3);
   });
@@ -9,9 +9,6 @@ describe("sum part 1", () => {
   it("adds zero", () => {
     expect(sum(1, 0)).toBe(1);
   });
-});
-
-describe("sum part 2", () => {
   it("adds negative numbers", () => {
     expect(sum(1, -1)).toBe(0);
   });
